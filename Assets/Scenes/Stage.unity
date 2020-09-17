@@ -1191,7 +1191,7 @@ MonoBehaviour:
   wallChecker: {fileID: 2029171083}
   soundOnRun: {fileID: 8300000, guid: 5fa51535270de9d42a880d121e47ad4a, type: 3}
   soundOnWalk: {fileID: 8300000, guid: 480aa776a1586ae4fa790fba0a9b5e6d, type: 3}
-  soundOnJump: {fileID: 8300000, guid: 1fb87388c32f01d45913d2b8fe00a6fe, type: 3}
+  soundOnJump: {fileID: 8300000, guid: 7fc0d78d4a83db244a75836e26be7262, type: 3}
   tumbleTimeout: 1.5
 --- !u!50 &1635010498
 Rigidbody2D:

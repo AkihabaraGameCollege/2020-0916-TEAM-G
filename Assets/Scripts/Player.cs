@@ -134,7 +134,7 @@ namespace RunGame
         {
             rigidbody.AddForce(jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger(jumpTrigger);
-            // Run音を再生
+            // Jump音を再生
             audioSource.clip = soundOnJump;
             audioSource.loop = true;
             audioSource.Play();
