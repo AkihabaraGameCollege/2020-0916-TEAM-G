@@ -265,6 +265,11 @@ namespace RunGame
                 // アイテムを削除
                 Destroy(collision.gameObject);
             }
+            //敵に当たった時
+            else if (collision.CompareTag("Enemy"))
+            {
+                StageScene.Instance.GameOver();
+            }
             // ゴール判定
             else if (collision.CompareTag("Finish"))
             {
