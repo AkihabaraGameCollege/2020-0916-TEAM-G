@@ -46,9 +46,17 @@ namespace RunGame
         // 現在のプレイヤー状態
         PlayerState currentState = PlayerState.Walk;
 
-        // ダッシュ時のサウンドを指定します。
+        // Run時のサウンドを指定します。
         [SerializeField]
         private AudioClip soundOnRun = null;
+
+        // Walk時のサウンドを指定します。
+        [SerializeField]
+        private AudioClip soundOnWalk = null;
+
+        // Jump時のサウンドを指定します。
+        [SerializeField]
+        private AudioClip soundOnJump = null;
 
         // 転倒によるゲームオーバーと判定するタイムアウト時間（秒）を指定します。
         [SerializeField]
@@ -102,6 +110,10 @@ namespace RunGame
         {
             animator.SetTrigger(walkTrigger);
             speed = walkSpeed;
+            // Walk音を再生
+            audioSource.clip = soundOnWalk;
+            audioSource.loop = true;
+            audioSource.Play();
             currentState = PlayerState.Walk;
         }
 
@@ -110,7 +122,7 @@ namespace RunGame
         {
             animator.SetTrigger(runTrigger);
             speed = runSpeed;
-            // コロコロ音を再生
+            // Run音を再生
             audioSource.clip = soundOnRun;
             audioSource.loop = true;
             audioSource.Play();
@@ -122,6 +134,10 @@ namespace RunGame
         {
             rigidbody.AddForce(jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger(jumpTrigger);
+            // Run音を再生
+            audioSource.clip = soundOnJump;
+            audioSource.loop = true;
+            audioSource.Play();
             currentState = PlayerState.Jump;
         }
 

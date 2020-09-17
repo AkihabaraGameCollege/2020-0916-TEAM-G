@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4349612963126305394}
   - component: {fileID: 4349612963126305393}
-  - component: {fileID: 4349612963126305392}
+  - component: {fileID: 8681736970786747875}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Enemy
@@ -71,25 +71,25 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b3fd7b6c68dfef4396bd949559be05a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af0a9ebcaebd4344fb6153adb5ba416e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.08, y: 1.08}
+  m_Size: {x: 2.16, y: 2.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &4349612963126305392
+--- !u!58 &8681736970786747875
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4349612963126305407}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -97,4 +97,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1.3

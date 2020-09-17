@@ -1189,7 +1189,9 @@ MonoBehaviour:
     m_Bits: 256
   groundChecker: {fileID: 719693035}
   wallChecker: {fileID: 2029171083}
-  soundOnRun: {fileID: 8300000, guid: 66a7a36c85e92ec41b6e6839b79a7741, type: 3}
+  soundOnRun: {fileID: 8300000, guid: 5fa51535270de9d42a880d121e47ad4a, type: 3}
+  soundOnWalk: {fileID: 8300000, guid: 480aa776a1586ae4fa790fba0a9b5e6d, type: 3}
+  soundOnJump: {fileID: 8300000, guid: 1fb87388c32f01d45913d2b8fe00a6fe, type: 3}
   tumbleTimeout: 1.5
 --- !u!50 &1635010498
 Rigidbody2D:
