@@ -20,10 +20,10 @@ public class TimeCounter : MonoBehaviour
         //時間を表示する
         timeText.text = countdown.ToString("f1") + "秒";
 
-        //countdownが0以下になったとき
-        if (countdown <= 0)
-        {
-            timeText.text = "GameOvre";
-        }
+        ////countdownが0以下になったとき
+        //if (countdown <= 0)
+        //{
+        //    timeText.text = "GameOvre";
+        //}
     }
 }

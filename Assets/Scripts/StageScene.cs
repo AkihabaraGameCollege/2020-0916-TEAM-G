@@ -64,7 +64,7 @@ namespace RunGame {
             set { stageNo = value; }
         }
         // 現在プレイしているステージ番号
-        static int stageNo = 0;
+        static int stageNo = 2;
 
         // ステージ画面内の進行状態を表します。
         enum SceneState {

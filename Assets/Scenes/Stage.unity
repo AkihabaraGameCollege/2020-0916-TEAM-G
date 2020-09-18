@@ -655,7 +655,7 @@ MonoBehaviour:
     type: 3}
   pausePrefab: {fileID: 2257860492818224464, guid: 83e4a0ac483043648a7748b10099185f,
     type: 3}
-  stageCount: 3
+  stageCount: 5
 --- !u!95 &1055677393
 Animator:
   serializedVersion: 3
