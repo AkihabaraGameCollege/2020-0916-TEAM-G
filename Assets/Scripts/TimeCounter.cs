@@ -15,7 +15,7 @@ public class TimeCounter : MonoBehaviour
     void Update()
     {
         //時間をカウントダウンする
-        countdown -= Time.deltaTime;
+        countdown += Time.deltaTime;
 
         //時間を表示する
         timeText.text = countdown.ToString("f1") + "秒";
